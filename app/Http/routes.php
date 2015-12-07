@@ -15,4 +15,4 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'Home\HomeController@infophp');
+Route::get('/', 'Home\HomeController@index');
