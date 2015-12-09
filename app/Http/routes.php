@@ -16,3 +16,4 @@
 //});
 
 Route::get('/', 'Home\HomeController@index');
+Route::get('/aboutme','Home\HomeController@aboutme');
